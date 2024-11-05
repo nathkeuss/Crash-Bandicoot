@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "crash";
+    src: url(../font/crash-a-like.ttf);
+}
+
+/* Header */
+
+header {
+    background-image: url(../img/crash1.jpg);
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+    z-index: 2000;
+}
+
+#opacity {
+    background-color: rgba(255, 255, 255, 0.242);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+#btnAcheter {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    background-color: yellow;
+    color: white;
+    padding: 25px;
+    border: solid 5px orange;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: "crash";
+    -webkit-text-stroke: 1px orange;
+    z-index: 3000;
+}
+
+#logo {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 35%;
+    z-index: 4000;
+}
+
+#troisTraits {
+    position: absolute;
+    top: 4%;
+    left: 85%;
+    z-index: 5000;
+}
+
+li {
+    background-color: yellow;
+    width: 50px;
+    height: 4px;
+    list-style-type: none;
+    margin: 17px;
+    z-index: 5000;
+}
+
+/* Main */
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: "crash";
+    font-size: 40px;
+    text-align: center;
+    color: rgba(206, 146, 48);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(92, 151, 198);
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+}
+
+#article1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#perso1_1 {
+    width: 30%;
+    float: left;
+}
+
+#perso1_2 {
+    width: 30%;
+    float: right;
+}
+
+#textFirstArticle {
+    width: 50%;
+    margin: auto;
+}
+
+#jeux {
+    background-color: rgb(44, 121, 173);
+    border: solid 4px yellow;
+}
+
+#jeux_2 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#premierh2 {
+    font-size: 50px;
+    width: 300px;
+    transform: rotate(-20deg);
+    text-shadow: 2px 2px 2px black;
+    margin-top: 110px;
+    float: left;
+    color: yellow;
+}
+
+#deuxiemeh2 {
+    font-size: 50px;
+    width: 300px;
+    transform: rotate(20deg);
+    text-shadow: 2px 2px 2px black;
+    margin-top: 110px;
+    float: right;
+    color: yellow;
+}
+
+#perso2 {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+#divRelativeCrash2 {
+    position: relative;
+}
+
+#chevronGauche {
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    color: white;
+    font-size: 150px;
+}
+
+#chevronDroite {
+    position: absolute;
+    top: 30%;
+    left: 92%;
+    color: white;
+    font-size: 150px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(224, 150, 45);
+    height: 200px;
+    margin-top: 75px;
+}
+
+#masque {
+    margin-top: 30px;
+    width: 100px;
+    float: left;
+}
+
+#logo2 {
+    margin-top: 30px;
+    width: 250px;
+    float: right;
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#margeLiens {
+    margin: auto;
+    width: 300px;
+}
